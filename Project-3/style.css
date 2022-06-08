@@ -80,17 +80,17 @@ p {
 }
 
 a:link {
-  color: rgb(255, 135, 37);
+  color: white;
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(255, 135, 37);
+  color: white;
 }
 
 a:hover {
   color: rgb(255, 0, 225);
-  text-decoration: underline;
+  size: 10px;
 }
 
 a:active {
@@ -98,7 +98,7 @@ a:active {
 }
 
 a:visited:hover {
-  color: rgb(255, 0, 225);
+  color: white;
 }
 
 a:visited:active {
