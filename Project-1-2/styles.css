@@ -1,0 +1,83 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 0, 225);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:visited:hover {
+  color: rgb(255, 0, 225);
+}
+
+a:active {
+  color: red;
+}
+
+p {
+  padding: 20px 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.line {
+  border-bottom: 1px solid #e30bfb;
+}
+
+.button:link,
+.button:visited {
+  display: block;
+  text-decoration: none;
+
+  color: #fff;
+  background-color: rgb(255, 0, 225);
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5d6063;
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+
+.button:hover,
+.button:visited:hover {
+  color: rgb(0, 0, 0);
+  background-color: #76ffa4;
+  width: 400px;
+}
+
+.button:active,
+.button:visited:active {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 0, 225);
+}
+
+.centr {
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.background {
+  background-image: url(images/nft.jpeg);
+  background-size: cover;
+  background-position: center;
+}
